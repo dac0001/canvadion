@@ -9,7 +9,10 @@ Easy way to manipulate images.
 Then...
 
 ```js
-const Canvadion = require("canvadion")
+const { canvadion } = require("canvadion")
+
+
+let image = await canvadion(image1, image2);
 ```
 
 
