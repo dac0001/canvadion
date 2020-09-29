@@ -44,10 +44,6 @@ function ship(image1, image2, user1, user2){
     ctx.fillStyle = color;
     await fillTextWithTwemoji(ctx, `${loveLevel}`, 360, 545);
 
-
-    const attachment = new Discord.MessageAttachment(encoder.out.getData(), 'ship.gif');
-
-    message.channel.send(`${vacio}**${final_name}**`, attachment);
     return canvas.toBuffer();
 }
 
