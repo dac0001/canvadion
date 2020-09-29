@@ -29,7 +29,7 @@ async function canvadion(image1, image2, user1, user2){
     ctx.drawImage(avatar1, 50, 0, 480, 500);
     ctx.drawImage(avatar2, 720, 0, 480, 500);
     ctx.lineWidth = 1;
-	  ctx.strokeStyle = color;
+    ctx.strokeStyle = color;
     ctx.strokeRect(50, 0, 480, 500);
     ctx.strokeRect(720, 0, 480, 500);
     ctx.drawImage(heart, (canvas.width-size)/2 + 25, (canvas.height-size)/2 -25, size, size);
